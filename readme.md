@@ -2,7 +2,7 @@
 
 There are two major players in this field one is [flow](https://github.com/facebook/flow) written in ocaml by facebook and second is [typescript](https://github.com/microsoft/typescript) written in typescript by microsoft.
 
-Besides those there is new kid in the neighborhood called [hegel](https://github.com/JSMonk/hegel) written in javascript (with flow and hegel) by ukrainian developer [Artem Kobzar](https://github.com/jsMonk). hegel is not ready for prime time but it has much better design decisions and goals around type system then typescript and is written in javascript opposit to facebook's decision to use ocaml for javascript type system which greatly limits contributions from javascript community.
+Besides those there is new kid in the neighborhood called [hegel](https://github.com/JSMonk/hegel) written in javascript (with flow and hegel) by ukrainian developer [Artem Kobzar](https://github.com/jsMonk). hegel is not ready for prime time but it has much better design decisions and goals around type system then typescript and is written in javascript opposite to facebook's decision to use ocaml for javascript type system which greatly limits contributions from javascript community.
 
 This Repo is for comparing those three and tracking progress.
 
