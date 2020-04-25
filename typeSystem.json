@@ -182,9 +182,9 @@
   [
     "Type guards",
     {
-      "answer": "Yes",
-      "link": "but no inference and no analysis of implementation",
-      "description": null
+      "answer": "Unusable",
+      "link": null,
+      "description": "No inference and no analysis of implementation"
     },
     {
       "answer": "No",
@@ -200,9 +200,9 @@
   [
     "Assertion functions",
     {
-      "answer": "Yes",
+      "answer": "Unusable",
       "link": null,
-      "description": "but no inference and no analysis of implementation"
+      "description": "No inference and no analysis of implementation"
     },
     {
       "answer": "No",

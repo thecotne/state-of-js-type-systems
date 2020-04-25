@@ -77,13 +77,13 @@ async function* rows () {
   ]
   yield [
     "Type guards",
-    A(Yes, 'but no inference and no analysis of implementation'),
+    A(Unusable, null, 'No inference and no analysis of implementation'),
     A(No, null, `there is '%checks' syntax that does not work for most use cases`),
     A(No)
   ]
   yield [
     "Assertion functions",
-    A(Yes, null, 'but no inference and no analysis of implementation'),
+    A(Unusable, null, 'No inference and no analysis of implementation'),
     A(No, await issue(FlowRepo, 112), `but there is hacky solution that sometimes can be useful`),
     A(No)
   ]
