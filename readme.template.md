@@ -16,6 +16,8 @@ This Repo is for comparing those three and tracking progress.
 
 no IDE support bullcrap in this section
 
+***note***: `???` links are used instead of `abbr` tags since those are not supported by github in readme
+
 %typeSystemTable%
 
 ## Contribution
