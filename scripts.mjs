@@ -84,13 +84,13 @@ async function* rows () {
   yield [
     "Assertion functions",
     A(Yes, null, 'but no inference and no analysis of implementation'),
-    A(No, issue(FlowRepo, 112), `but there is hacky solution that sometimes can be useful`),
+    A(No, await issue(FlowRepo, 112), `but there is hacky solution that sometimes can be useful`),
     A(No)
   ]
   yield [
     "Conditional types",
     A(Yes),
-    A(No, issue(FlowRepo, 6055), `but there is hacky solution for some use cases`),
+    A(No, await issue(FlowRepo, 6055), `but there is hacky solution for some use cases`),
     A(No)
   ]
 }

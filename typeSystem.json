@@ -206,7 +206,7 @@
     },
     {
       "answer": "No",
-      "link": {},
+      "link": "<a href=\"https://github.com/facebook/flow/issues/112\" title=\"Remove special case for `invariant`\">#112</a>",
       "description": "but there is hacky solution that sometimes can be useful"
     },
     {
@@ -224,7 +224,7 @@
     },
     {
       "answer": "No",
-      "link": {},
+      "link": "<a href=\"https://github.com/facebook/flow/issues/6055\" title=\"Conditional return type in Flow?\">#6055</a>",
       "description": "but there is hacky solution for some use cases"
     },
     {
