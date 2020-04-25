@@ -1,0 +1,236 @@
+[
+  [
+    "Type safe try/catch/throw",
+    {
+      "answer": "No",
+      "link": "<a href=\"https://github.com/microsoft/TypeScript/issues/13219\" title=\"Suggestion: `throws` clause and typed catch clause\">#13219</a>",
+      "description": null
+    },
+    {
+      "answer": "No",
+      "link": "<a href=\"https://github.com/facebook/flow/issues/2470\" title=\"Doesn&#039;t check the type of an exception\">#2470</a>",
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Immutability",
+    {
+      "answer": "Unusable",
+      "link": "<a href=\"https://github.com/microsoft/TypeScript/issues/13347\" title=\"Interface with readonly property is assignable to interface with mutable property\">#13347</a>",
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Type inference",
+    {
+      "answer": "SomeTimes",
+      "link": null,
+      "description": "Variable declaration, call back functions (Contextual Typing), function return type"
+    },
+    {
+      "answer": "Mostly",
+      "link": null,
+      "description": "Everything that ts has + function arguments (if local to module) but no generics"
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": "Even generics"
+    }
+  ],
+  [
+    "Enforce use of function return value",
+    {
+      "answer": "No",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "No",
+      "link": "<a href=\"https://github.com/facebook/flow/issues/3914\" title=\"Enforce use of function return\">#3914</a>",
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Prevent implicit type conversion",
+    {
+      "answer": "SomeTimes",
+      "link": null,
+      "description": "but non goal"
+    },
+    {
+      "answer": "SomeTimes",
+      "link": null,
+      "description": "but non goal"
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": "Almost all the time and it's design goal"
+    }
+  ],
+  [
+    "Correctly balanced nominal and structural typing",
+    {
+      "answer": "No",
+      "link": null,
+      "description": "Only structural typing even for classes and primitive types"
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Objects are not assignable to primitive types",
+    {
+      "answer": "No non-goal",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Library of type definitions",
+    {
+      "answer": "Good",
+      "link": "<a href=\"https://github.com/DefinitelyTyped/DefinitelyTyped\">DefinitelyTyped</a>",
+      "description": null
+    },
+    {
+      "answer": "There is something",
+      "link": "<a href=\"https://github.com/flow-typed/flow-typed\">flow-typed</a>",
+      "description": null
+    },
+    {
+      "answer": "Same as TypeScript",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Ability to enforce no extra props",
+    {
+      "answer": "SomeTimes",
+      "link": "but it's <a href=\"https://stackoverflow.com/a/54775885/1946607\">hacky</a>",
+      "description": null
+    },
+    {
+      "answer": "Yes By Default",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "Yes By Default",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Attempt to prevent runtime TypeErrors",
+    {
+      "answer": "No non-goal",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "Mostly",
+      "link": "it's design goal",
+      "description": null
+    },
+    {
+      "answer": "Mostly",
+      "link": "it's design goal",
+      "description": null
+    }
+  ],
+  [
+    "Type guards",
+    {
+      "answer": "Yes",
+      "link": "but no inference and no analysis of implementation",
+      "description": null
+    },
+    {
+      "answer": "No",
+      "link": null,
+      "description": "there is '%checks' syntax that does not work for most use cases"
+    },
+    {
+      "answer": "No",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Assertion functions",
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": "but no inference and no analysis of implementation"
+    },
+    {
+      "answer": "No",
+      "link": {},
+      "description": "but there is hacky solution that sometimes can be useful"
+    },
+    {
+      "answer": "No",
+      "link": null,
+      "description": null
+    }
+  ],
+  [
+    "Conditional types",
+    {
+      "answer": "Yes",
+      "link": null,
+      "description": null
+    },
+    {
+      "answer": "No",
+      "link": {},
+      "description": "but there is hacky solution for some use cases"
+    },
+    {
+      "answer": "No",
+      "link": null,
+      "description": null
+    }
+  ]
+]
