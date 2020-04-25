@@ -20,6 +20,18 @@ no IDE support bullcrap in this section
 
 %typeSystemTable%
 
+#### glossary
+
+|      Term      |                                  Meaning                                   |
+|----------------|----------------------------------------------------------------------------|
+| Yes By Default | It is implemented, it works and is turned on by default                    |
+| Yes            | It is implemented and it works (it may or may not be turned on by default) |
+| Mostly         | It is implemented and mostly covers use cases                              |
+| Sometimes      | It has poor implementation that sometimes works and sometimes does not     |
+| Unusable       | It has so poor implementation that it rarely makes any difference          |
+| No             | It is not implemented                                                      |
+| No non-goal    | It is not implemented and it will not be implemented in future             |
+
 ## Contribution
 
 feel free to open issue or pull request to point out any mistake (like missing punctuation or typo) or mission/inaccurate information.

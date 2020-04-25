@@ -38,7 +38,7 @@
   [
     "Type inference",
     {
-      "answer": "SomeTimes",
+      "answer": "Sometimes",
       "link": null,
       "description": "Variable declaration, call back functions (Contextual Typing), function return type"
     },
@@ -74,12 +74,12 @@
   [
     "Prevent implicit type conversion",
     {
-      "answer": "SomeTimes",
+      "answer": "Sometimes",
       "link": null,
       "description": "but non goal"
     },
     {
-      "answer": "SomeTimes",
+      "answer": "Sometimes",
       "link": null,
       "description": "but non goal"
     },
@@ -146,7 +146,7 @@
   [
     "Ability to enforce no extra props",
     {
-      "answer": "SomeTimes",
+      "answer": "Sometimes",
       "link": "but it's <a href=\"https://stackoverflow.com/a/54775885/1946607\">hacky</a>",
       "description": null
     },
