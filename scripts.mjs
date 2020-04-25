@@ -236,7 +236,7 @@ async function* table(titles, rows) {
 }
 
 function abbr (text, description) {
-  return `<u>${link(text, '', description)}</u>`
+  return `<u>${link(text, '#', description)}</u>`
   // return `<abbr title="${escapeHtml(description)}">${escapeHtml(text)}</abbr>`
 }
 
