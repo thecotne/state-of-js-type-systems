@@ -214,7 +214,7 @@ async function* table(titles, rows) {
   yield `<tbody>`
   for (const row of rows) {
     yield `<tr>`
-    yield `<th>${row[0]}</th>`
+    yield `<td><b>${row[0]}</b></td>`
     for (const cell of row.slice(1)) {
       yield `<td>`
       yield cell.answer
