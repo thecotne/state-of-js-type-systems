@@ -220,11 +220,11 @@ async function* table(titles, rows) {
       yield cell.answer
 
       if (cell.link) {
-        yield ` ${cell.link}`
+        yield `, ${cell.link}`
       }
 
       if (cell.description) {
-        yield ` ${abbr('???', cell.description)}`
+        yield `, ${abbr('???', cell.description)}`
       }
 
       yield `</td>`
@@ -236,7 +236,8 @@ async function* table(titles, rows) {
 }
 
 function abbr (text, description) {
-  return `<abbr title="${escapeHtml(description)}">${escapeHtml(text)}</abbr>`
+  return `<u>${link(text, '', description)}</u>`
+  // return `<abbr title="${escapeHtml(description)}">${escapeHtml(text)}</abbr>`
 }
 
 async function asyncGenToString (iterator) {
