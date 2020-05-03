@@ -39,6 +39,7 @@ In this section we compare how popular each solution is amongs most impactful Ja
 
 |       Project       |              Choice              |                                                                                           Proof                                                                                           |
 |---------------------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| babel               | Flow                             | [1](https://github.com/babel/babel/blob/v7.0.0/.flowconfig)                                                                                                                               |
 | React               | Flow                             | [1](https://github.com/facebook/react/blob/master/scripts/flow/config/flowconfig)                                                                                                         |
 | Redux v1, v2 and v3 | Flow                             | [1](https://github.com/reduxjs/redux/blob/v1.0.0/.flowconfig) [2](https://github.com/reduxjs/redux/blob/v2.0.0/.flowconfig) [3](https://github.com/reduxjs/redux/blob/v3.0.0/.flowconfig) |
 | Redux v4            | TypeScript                       | [1](https://github.com/reduxjs/redux/blob/master/tsconfig.json)                                                                                                                           |
@@ -56,6 +57,7 @@ In this section we compare how popular each solution is amongs most impactful Ja
 | Yarn v2 (berry)     | TypeScript                       | [1](https://github.com/yarnpkg/berry/blob/master/tsconfig.json)                                                                                                                           |
 | NestJS              | TypeScript                       | [1](https://github.com/nestjs/nest/blob/master/tsconfig.json)                                                                                                                             |
 | AdonisJS            | TypeScript                       | [1](https://github.com/adonisjs/core/blob/develop/tsconfig.json)                                                                                                                          |
+| Relay               | Flow                             | [1](https://github.com/facebook/relay/blob/v9.0.0/.flowconfig)                                                                                                                            |
 
 Many JavaScript projects are not using any type checking tool at all
 and many who use TypeScript don't go all in on it and have only about 1/4 of files converted to TypeScript
