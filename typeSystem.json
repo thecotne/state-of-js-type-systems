@@ -108,24 +108,6 @@
     }
   ],
   [
-    "Objects are not assignable to primitive types",
-    {
-      "answer": "No non-goal",
-      "link": null,
-      "description": null
-    },
-    {
-      "answer": "Yes",
-      "link": null,
-      "description": null
-    },
-    {
-      "answer": "Yes",
-      "link": null,
-      "description": null
-    }
-  ],
-  [
     "Library of type definitions",
     {
       "answer": "Good",

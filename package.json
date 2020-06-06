@@ -1,8 +1,8 @@
 {
-  "name": "state-of-js-type-systems",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:thecotne/state-of-js-type-systems.git",
-  "author": "Cotne Nazarashvili <cotne.95@gmail.com>",
-  "license": "MIT"
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts.mjs both",
+    "build:json": "node ./scripts.mjs json",
+    "build:readme": "node ./scripts.mjs readme"
+  }
 }

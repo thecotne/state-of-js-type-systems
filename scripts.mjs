@@ -52,12 +52,6 @@ async function* rows () {
     A(Yes)
   ]
   yield [
-    "Objects are not assignable to primitive types",
-    A(NoNonGoal),
-    A(Yes),
-    A(Yes)
-  ]
-  yield [
     "Library of type definitions",
     A('Good', link('DefinitelyTyped', 'https://github.com/DefinitelyTyped/DefinitelyTyped')),
     A('There is something', link('flow-typed', 'https://github.com/flow-typed/flow-typed')),
