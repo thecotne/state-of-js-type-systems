@@ -47,7 +47,7 @@ async function* rows () {
   ]
   yield [
     "Correctly balanced nominal and structural typing",
-    A(No, null, 'Only structural typing even for classes and primitive types'),
+    A(No, null, 'Only structural typing even for classes'),
     A(Yes),
     A(Yes)
   ]

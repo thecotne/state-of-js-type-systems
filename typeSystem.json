@@ -94,7 +94,7 @@
     {
       "answer": "No",
       "link": null,
-      "description": "Only structural typing even for classes and primitive types"
+      "description": "Only structural typing even for classes"
     },
     {
       "answer": "Yes",
